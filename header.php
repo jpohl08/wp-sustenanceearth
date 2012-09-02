@@ -137,3 +137,37 @@
 
 
 	<div id="main">
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>SustenanceEarth | Upcycled Crafts and Healthy Recipes</title>
+  <meta name="description" content="Easy upcycled crafts and quick healthy recipes to keep you and the planet nourished and full of life." />
+  <meta name="keywords" content="upcycled,crafts,recipes,healthy" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="shortcut icon" href="images/earth_favicon.png" type="image/x-icon" />
+  <link rel="canonical" href="http://sustenanceearth.com/raspberry_vinaigrette.html"/>
+  <link rel="canonical" href="http://sustenanceearth.com/etched_dressing_bottle.html"/>
+  <link rel="canonical" href="http://sustenanceearth.com/southern_french_crepe.html"/>
+  
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <!-- class="logo_colour", allows you to change the colour of the text -->
+        <h1><a href="index.html">Sustenance<span class="logo_colour">Earth</span></a></h1>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">Home</a></li>
+	  <li><a href="crafts.html">Upcycled Crafts</a></li>          
+          <li><a href="recipes.html">Recipes</a></li>
+	  <li><a href="featured.html">Featured</a></li>
+        </ul>
+      </nav>
+    </header>
