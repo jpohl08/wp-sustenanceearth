@@ -24,6 +24,13 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
+<meta name="keywords" content="upcycled,crafts,recipes,healthy" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="shortcut icon" href="images/earth_favicon.png" type="image/x-icon" />
+<link rel="canonical" href="http://sustenanceearth.com/raspberry_vinaigrette.html"/>
+<link rel="canonical" href="http://sustenanceearth.com/etched_dressing_bottle.html"/>
+<link rel="canonical" href="http://sustenanceearth.com/southern_french_crepe.html"/>
 <title><?php
     /*
      * Print the <title> tag based on what is being viewed.
@@ -80,7 +87,7 @@
                         </a>
                     </h1>
                 </div>
-                <h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+               <!-- <h2 id="site-description"><?php bloginfo( 'description' ); ?></h2> -->
             </hgroup>
 
             <?php
@@ -133,49 +140,33 @@
                 <?php get_search_form(); ?>
             <?php endif; ?>
 
-            <nav id="access" role="navigation">
+            <!-- <nav id="access" role="navigation">
                 <h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
                 <?php /* Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
                 <div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to primary content', 'twentyeleven' ); ?></a></div>
                 <div class="skip-link"><a class="assistive-text" href="#secondary" title="<?php esc_attr_e( 'Skip to secondary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to secondary content', 'twentyeleven' ); ?></a></div>
                 <?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>
                 <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-            </nav><!-- #access -->
+            </nav> #access -->
+      <nav>
+        <ul class="sf-menu" id="nav">
+        <li><a href="<?php echo esc_url( home_url() ); ?>">Home</a></li>
+        <li><a href="upcycled-crafts">Upcycled Crafts</a></li>          
+          <li><a href="recipes">Recipes</a></li>
+      <li><a href="featured">Featured</a></li>
+        </ul>
+      </nav>
     </header><!-- #branding -->
 
 
     <div id="main">
-<!DOCTYPE HTML>
-<html>
-
 <head>
   <title>SustenanceEarth | Upcycled Crafts and Healthy Recipes</title>
   <meta name="description" content="Easy upcycled crafts and quick healthy recipes to keep you and the planet nourished and full of life." />
-  <meta name="keywords" content="upcycled,crafts,recipes,healthy" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link rel="shortcut icon" href="images/earth_favicon.png" type="image/x-icon" />
-  <link rel="canonical" href="http://sustenanceearth.com/raspberry_vinaigrette.html"/>
-  <link rel="canonical" href="http://sustenanceearth.com/etched_dressing_bottle.html"/>
-  <link rel="canonical" href="http://sustenanceearth.com/southern_french_crepe.html"/>
   
   <!-- modernizr enables HTML5 elements and feature detects -->
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 </head>
-
-<body>
   <div id="main">
     <header>
-      <div id="logo">
-        <!-- class="logo_colour", allows you to change the colour of the text -->
-        <h1><a href="index.html">Sustenance<span class="logo_colour">Earth</span></a></h1>
-      </div>
-      <nav>
-        <ul class="sf-menu" id="nav">
-          <li><a href="index.html">Home</a></li>
-      <li><a href="crafts.html">Upcycled Crafts</a></li>          
-          <li><a href="recipes.html">Recipes</a></li>
-      <li><a href="featured.html">Featured</a></li>
-        </ul>
-      </nav>
     </header>
