@@ -170,6 +170,7 @@ ol li {
 #logo h1 {
   float: left;
   font: normal 700% 'Jenna Sue', arial, sans-serif;
+  text-transform:capitalize;
 }
 
 #logo h1 a {
