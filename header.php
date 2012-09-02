@@ -45,16 +45,18 @@
     // Add the blog description for the home/front page.
     $site_description = get_bloginfo( 'description', 'display' );
     if ( $site_description && ( is_home() || is_front_page() ) )
-        echo " | $site_description";
+        echo " | "/* $site_description*/;
 
     // Add a page number if necessary:
     if ( $paged >= 2 || $page >= 2 )
         echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
 
-    ?></title>
+    ?>Upcycled Crafts and Healthy Recipes</title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<!-- modernizr enables HTML5 elements and feature detects -->
+<script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
@@ -75,6 +77,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <div id="main">
 <div id="page" class="hfeed">
     <header id="branding" role="banner">
             <hgroup>
@@ -148,6 +151,7 @@
                 <?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>
                 <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
             </nav> #access -->
+    </header><!-- #branding -->
       <nav>
         <ul class="sf-menu" id="nav">
         <li><a href="<?php echo esc_url( home_url() ); ?>">Home</a></li>
@@ -156,17 +160,3 @@
       <li><a href="featured">Featured</a></li>
         </ul>
       </nav>
-    </header><!-- #branding -->
-
-
-    <div id="main">
-<head>
-  <title>SustenanceEarth | Upcycled Crafts and Healthy Recipes</title>
-  <meta name="description" content="Easy upcycled crafts and quick healthy recipes to keep you and the planet nourished and full of life." />
-  
-  <!-- modernizr enables HTML5 elements and feature detects -->
-  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-</head>
-  <div id="main">
-    <header>
-    </header>
