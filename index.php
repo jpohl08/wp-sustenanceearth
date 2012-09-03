@@ -15,8 +15,6 @@
 get_header(); ?>
 
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
     <div id="site_content">
       <div id="sidebar_container">
         <div class="sidebar">
@@ -199,3 +197,5 @@ get_header(); ?>
         </div>     
       </div>
     </div>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

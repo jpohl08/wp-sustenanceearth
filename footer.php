@@ -10,7 +10,6 @@
  */
 ?>
 
-    </div><!-- #main -->
 
 </div><!-- #page -->
 <footer>
@@ -39,6 +38,7 @@
     });
   </script>
 
+</div><!-- #main -->
 
 </body>
 </html>
