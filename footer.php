@@ -17,8 +17,8 @@
 
 </div><!-- #page -->
 
-<footer>
-<p><a href="<?php echo esc_url( home_url() ); ?>">Home</a> |
+<footer id="main-footer">
+    <p><a href="<?php echo esc_url( home_url() ); ?>">Home</a> |
          <a href="upcycled-crafts">Upcycled Crafts</a> |
          <a href="recipes">Recipes</a> |
          <a href="about">About</a> |

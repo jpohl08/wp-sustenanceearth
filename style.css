@@ -268,7 +268,7 @@ ul.slideshow li.show {
 ul img {
   border: none;}
  
-footer { 
+footer#main-footer { 
   width: 950px;
   font: normal 100% arial, sans-serif;
   height: 85px;
@@ -285,6 +285,14 @@ footer a, footer a:hover {
 
 footer a:hover { 
   color: #FFF;
+}
+
+footer.entry-meta a {
+  color: #05CCDE;
+}
+
+footer.entry-meta a:hover {
+  color: #403838;
 }
 
 .form_settings { 
