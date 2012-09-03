@@ -10,7 +10,7 @@
 get_header(); ?>
 <div id="sidebar_container">
 <?php get_sidebar(); ?>
-
+    <div id="content_item"> 
         <div id="primary">
             <div id="content" role="main">
 
@@ -30,5 +30,5 @@ get_header(); ?>
 
             </div><!-- #content -->
         </div><!-- #primary -->
-
+    </div><!-- #content_item -->
 <?php get_footer(); ?>

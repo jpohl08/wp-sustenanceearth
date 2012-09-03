@@ -10,8 +10,6 @@
  */
 ?>
 
-</div><!-- #site_content -->
-
     <p>&nbsp;</p>
     <p>&nbsp;</p>
 
