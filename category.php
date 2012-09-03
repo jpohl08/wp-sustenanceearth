@@ -8,7 +8,10 @@
  */
 
 get_header(); ?>
-
+<div id="sidebar_container">
+<?php get_sidebar(); ?>
+    
+    <div id="content_item">
 		<section id="primary">
 			<div id="content" role="main">
 
@@ -60,6 +63,6 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</section><!-- #primary -->
+    </div><!-- #content_item -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
