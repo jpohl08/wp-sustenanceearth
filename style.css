@@ -196,6 +196,11 @@ nav#header-navigation {
   background: url(images/transparent.png);
 } 
 
+nav#nav-single {
+  text-align: center;
+  margin: 1em 0 2em 0;
+}
+
 #site_content { 
   width: 950px;
   overflow: hidden;
