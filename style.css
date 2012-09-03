@@ -214,7 +214,9 @@ h1.entry-title a:hover {
   color: #05CCDE;
 }
 
-
+.entry-content {
+  padding: 0 3em 0 0;
+}
 
 
 #sidebar_container { 
