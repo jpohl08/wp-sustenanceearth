@@ -284,6 +284,7 @@ footer#main-footer {
   background: transparent url(images/transparent.png) repeat;
 }
 
+
 footer a, footer a:hover { 
   color: #FFF;
 }
@@ -292,11 +293,11 @@ footer a:hover {
   color: #FFF;
 }
 
-footer.entry-meta a {
+footer.entry-meta a, .comment-meta a {
   color: #05CCDE;
 }
 
-footer.entry-meta a:hover {
+footer.entry-meta a:hover, .comment-meta a:hover {
   color: #403838;
 }
 
