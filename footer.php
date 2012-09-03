@@ -10,8 +10,13 @@
  */
 ?>
 
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    </div><!-- #main -->
 
 </div><!-- #page -->
+
 <footer>
 <p><a href="<?php echo esc_url( home_url() ); ?>">Home</a> |
          <a href="upcycled-crafts">Upcycled Crafts</a> |
@@ -23,9 +28,8 @@
          Design: <a href="http://takeflightsites.com">Take Flight Sites</a> | 
          Template: <a href="http://www.css3templates.co.uk">css3templates.co.uk</a>
       </p>
-    </footer>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+</footer>
+
   </div>
   <!-- javascript at the bottom for fast page loading -->
   <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.js"></script>
@@ -37,8 +41,6 @@
       $('ul.sf-menu').sooperfish();
     });
   </script>
-
-</div><!-- #main -->
 
 </body>
 </html>
