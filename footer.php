@@ -10,26 +10,35 @@
  */
 ?>
 
-	</div><!-- #main -->
+    </div><!-- #main -->
 
-	<footer id="colophon" role="contentinfo">
-
-			<?php
-				/* A sidebar in the footer? Yep. You can can customize
-				 * your footer with three columns of widgets.
-				 */
-				if ( ! is_404() )
-					get_sidebar( 'footer' );
-			?>
-
-			<div id="site-generator">
-				<?php do_action( 'twentyeleven_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
-			</div>
-	</footer><!-- #colophon -->
 </div><!-- #page -->
+<footer>
+<p><a href="<?php echo esc_url( home_url() ); ?>">Home</a> |
+         <a href="upcycled-crafts">Upcycled Crafts</a> |
+         <a href="recipes">Recipes</a> |
+         <a href="about">About</a> |
+         <a href="contact">Contact Me</a>
+      </p>
+      <p>Copyright &copy; CSS3_design_two |
+         Design: <a href="http://takeflightsites.com">Take Flight Sites</a> | 
+         Template: <a href="http://www.css3templates.co.uk">css3templates.co.uk</a>
+      </p>
+    </footer>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
 
-<?php wp_footer(); ?>
 
 </body>
 </html>
