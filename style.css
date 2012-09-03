@@ -188,7 +188,7 @@ ol li {
 
 
 
-nav { 
+nav#header-navigation { 
   float: left;
   height: 50px;
   width: 950px;

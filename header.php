@@ -154,7 +154,7 @@
                 <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
             </nav> #access -->
     </header><!-- #branding -->
-      <nav>
+      <nav id="header-navigation">
         <ul class="sf-menu" id="nav">
         <li><a href="<?php echo esc_url( home_url() ); ?>">Home</a></li>
         <li><a href="upcycled-crafts">Upcycled Crafts</a></li>          
