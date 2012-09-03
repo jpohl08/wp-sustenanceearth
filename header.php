@@ -162,3 +162,4 @@
       <li><a href="featured">Featured</a></li>
         </ul>
       </nav>
+    <div id="site_content">
