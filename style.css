@@ -205,6 +205,16 @@ nav {
   border-bottom: 0;
 } 
 
+h1.entry-title a { 
+  text-decoration: none;
+  color: #333;
+}
+
+h1.entry-title a:hover {
+  color: #05CCDE;
+}
+
+
 #sidebar_container { 
   float: right;
   width: 224px;
