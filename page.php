@@ -13,6 +13,7 @@
  */
 
 get_header(); ?>
+<div id="sidebar_container">
 <?php get_sidebar(); ?>
 
 		<div id="primary">
