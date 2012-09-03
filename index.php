@@ -14,6 +14,37 @@
 
 get_header(); ?>
 
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h1>Latest News</h1>
+          <h2>Welcome to...</h2>
+          <p>Sustenance Earth! Healthy recipes and upcycled projects and ideas to keep you and the planet nourished and full of life!</p> 
+	  <p>Don't forget to click the Facebook button below then click the "Like" icon in the top right for the most up-to-date news on projects and recipes!</p>
+        </div>
+        <div class="sidebar">
+          <h1>Follow Me</h1>
+          <div class="center">
+		<a href="http://facebook.com/sustenanceearth"><img src="images/facebook_icon.png"/></a>
+	  	<a href="https://pinterest.com/sustenanceearth"><img src="images/pinterest_icon.png"/></a>
+		<a href="https://twitter.com/SustEarth_Jenn"><img src="images/twitter_icon.png"/></a>
+	  </div>
+        </div>
+      </div>
+      <div id="content">
+        <ul class="slideshow">
+          <li class="show"><a href="shoestrap.html"><img width="706" height="316" src="images/finished_bracelet_home.png" alt="Upcycled Shoe Strap Wrap Bracelet" /></a></li>
+	  <li><a href="artichokepizza.html"><img width="706" height="316" src="images/apizza_cooked_home.png" alt="Artichoke and Sun Dried Tomato Pizza Recipe"/></a></li>	  
+	  <li><a href="gold_winebottle.html"><img width="706" height="316" src="images/decorative_vase_home.png" alt="Upcycled Wine Bottle Vase"/></a></li>
+	  <li><a href="southern_french_crepe.html"><img width="706 height="316" src="images/crepe_home.png" alt="Strawberry filled crepe on a plate garnished with chocolate sauce"/></a></li>
+	  <li><a href="purse_makeover.html"><img width="706" height="316" src="images/purse-makeover-home.png" alt="Drab to Fab Purse Makeover, Black Textured Purse"/></a></li>
+	  <li><a href="raspberry_vinaigrette.html"><img width="706" height="316" src="images/rvinaigrette_homepage.png" alt="Raspberry Vinaigrette Recipe poured on Salad"/></a></li>
+
+        </ul>
+     	<div id="content_item">
 		<div id="primary">
 			<div id="content" role="main">
 
@@ -47,70 +78,6 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
-<?php get_footer(); ?><!DOCTYPE HTML>
-<html>
-
-<head>
-  <title>SustenanceEarth | Upcycled Crafts and Healthy Recipes</title>
-  <meta name="description" content="Easy upcycled crafts and quick healthy recipes to keep you and the planet nourished and full of life." />
-  <meta name="keywords" content="upcycled,crafts,recipes,healthy" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link rel="shortcut icon" href="images/earth_favicon.png" type="image/x-icon" />
-  <link rel="canonical" href="http://sustenanceearth.com/raspberry_vinaigrette.html"/>
-  <link rel="canonical" href="http://sustenanceearth.com/etched_dressing_bottle.html"/>
-  <link rel="canonical" href="http://sustenanceearth.com/southern_french_crepe.html"/>
-  
-  <!-- modernizr enables HTML5 elements and feature detects -->
-  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-</head>
-
-<body>
-  <div id="main">
-    <header>
-      <div id="logo">
-        <!-- class="logo_colour", allows you to change the colour of the text -->
-        <h1><a href="index.html">Sustenance<span class="logo_colour">Earth</span></a></h1>
-      </div>
-      <nav>
-        <ul class="sf-menu" id="nav">
-          <li><a href="index.html">Home</a></li>
-	  <li><a href="crafts.html">Upcycled Crafts</a></li>          
-          <li><a href="recipes.html">Recipes</a></li>
-	  <li><a href="featured.html">Featured</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="site_content">
-      <div id="sidebar_container">
-        <div class="sidebar">
-          <h1>Latest News</h1>
-          <h2>Welcome to...</h2>
-          <p>Sustenance Earth! Healthy recipes and upcycled projects and ideas to keep you and the planet nourished and full of life!</p> 
-	  <p>Don't forget to click the Facebook button below then click the "Like" icon in the top right for the most up-to-date news on projects and recipes!</p>
-        </div>
-        <div class="sidebar">
-          <h1>Follow Me</h1>
-          <div class="center">
-		<a href="http://facebook.com/sustenanceearth"><img src="images/facebook_icon.png"/></a>
-	  	<a href="https://pinterest.com/sustenanceearth"><img src="images/pinterest_icon.png"/></a>
-		<a href="https://twitter.com/SustEarth_Jenn"><img src="images/twitter_icon.png"/></a>
-	  </div>
-        </div>
-      </div>
-      <div id="content">
-        <ul class="slideshow">
-          <li class="show"><a href="shoestrap.html"><img width="706" height="316" src="images/finished_bracelet_home.png" alt="Upcycled Shoe Strap Wrap Bracelet" /></a></li>
-	  <li><a href="artichokepizza.html"><img width="706" height="316" src="images/apizza_cooked_home.png" alt="Artichoke and Sun Dried Tomato Pizza Recipe"/></a></li>	  
-	  <li><a href="gold_winebottle.html"><img width="706" height="316" src="images/decorative_vase_home.png" alt="Upcycled Wine Bottle Vase"/></a></li>
-	  <li><a href="southern_french_crepe.html"><img width="706 height="316" src="images/crepe_home.png" alt="Strawberry filled crepe on a plate garnished with chocolate sauce"/></a></li>
-	  <li><a href="purse_makeover.html"><img width="706" height="316" src="images/purse-makeover-home.png" alt="Drab to Fab Purse Makeover, Black Textured Purse"/></a></li>
-	  <li><a href="raspberry_vinaigrette.html"><img width="706" height="316" src="images/rvinaigrette_homepage.png" alt="Raspberry Vinaigrette Recipe poured on Salad"/></a></li>
-
-        </ul>
-     	<div id="content_item">
 	   <h2>8-31-2012</h2>
 	   <h1>Raspberry Vinaigrette</h1>
 	<p>Recipe featured from<a href="http://wellnessmama.com/1531/seven-fast-and-healthy-salad-dressing-recipes/"> Wellness Mama</a>.</p>
@@ -232,30 +199,3 @@ get_header(); ?>
         </div>     
       </div>
     </div>
-    <footer>
-      <p><a href="index.html">Home</a> |
-         <a href="crafts.html">Upcycled Crafts</a> |
-         <a href="recipes.html">Recipes</a> |
-         <a href="about.html">About</a> |
-         <a href="contact.php">Contact Me</a>
-      </p>
-      <p>Copyright &copy; CSS3_design_two |
-         Design: <a href="http://takeflightsites.com">Take Flight Sites</a> | 
-         Template: <a href="http://www.css3templates.co.uk">css3templates.co.uk</a>
-      </p>
-    </footer>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-  </div>
-  <!-- javascript at the bottom for fast page loading -->
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
-  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
-  <script type="text/javascript" src="js/image_fade.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('ul.sf-menu').sooperfish();
-    });
-  </script>
-</body>
-</html>
