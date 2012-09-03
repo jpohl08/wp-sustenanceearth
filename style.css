@@ -182,6 +182,10 @@ ol li {
   color: #05CCDE;
 }
 
+#search {
+  float: right;
+}
+
 
 
 nav { 

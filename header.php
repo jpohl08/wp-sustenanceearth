@@ -140,7 +140,9 @@
             <?php
                 else :
             ?>
+            <div id="search">
                 <?php get_search_form(); ?>
+            </div>
             <?php endif; ?>
 
             <!-- <nav id="access" role="navigation">
