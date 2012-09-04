@@ -87,15 +87,17 @@
                             href="<?php echo esc_url( home_url( '/' ) ); ?>" 
                             title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" 
                             rel="home">
-<?php if ( is_home() ) echo "sustenance<span class='logo_colour'>Earth</span>"; ?>
-<?php $page_title_black = get_post_meta($post->ID, 'page_title_black', true);
-    echo $page_title_black
+<?php if ( is_page() ) {
+    $page_title_black = get_post_meta($post->ID, 'page_title_black', true);
+        echo $page_title_black;
+        echo "<span class='logo_colour'>";
+        $page_title_blue = get_post_meta($post->ID, 'page_title_blue', true);
+        echo $page_title_blue;
+        echo "</span>";
+    } else {
+        echo "sustenance<span class='logo_colour'>Earth</span>"; 
+    }
 ?>
-<span class="logo_colour">
-<?php $page_title_blue = get_post_meta($post->ID, 'page_title_blue', true);
-    echo $page_title_blue
-?>
-</span>
                         </a>
                     </h1>
                 </div>
