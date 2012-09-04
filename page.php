@@ -14,14 +14,18 @@
 
 get_header(); ?>
 <div id="sidebar_container">
-<h2>
-  <?php $side_title = get_post_meta($post->ID, 'sidebar_title', true);
-      echo $side_title
-  ?>
-</h2>
-  <?php $side_para = get_post_meta($post->ID, 'sidebar_paragraph', true);
-      echo $side_para
-  ?>
+  <div class="sidebar">
+    <h2>
+      <?php $side_title = get_post_meta($post->ID, 'sidebar_title', true);
+          echo $side_title
+      ?>
+    </h2>
+      <p>
+        <?php $side_para = get_post_meta($post->ID, 'sidebar_paragraph', true);
+            echo $side_para
+        ?>
+     </p>
+  </div>
 <?php get_sidebar(); ?>
 
     <div id="content_item">
