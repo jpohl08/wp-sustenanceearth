@@ -210,6 +210,11 @@ nav#nav-single {
   border-bottom: 0;
 } 
 
+#gallery {
+  overflow: hidden;
+  padding: 0 0 0 2em;
+}
+
 h1.entry-title a { 
   text-decoration: none;
   color: #333;
