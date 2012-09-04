@@ -44,9 +44,9 @@ get_header(); ?>
 					<?php get_template_part( 'content', get_post_format() ); ?>
 
 				<?php endwhile; ?>
-
+            <span class="center">
 				<?php twentyeleven_content_nav( 'nav-below' ); ?>
-
+            </span>
 			<?php else : ?>
 
 				<article id="post-0" class="post no-results not-found">
