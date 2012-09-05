@@ -21,9 +21,12 @@
 <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
+
+<!-- adds canonical links to landing pages (permalinked pages) -->
 <?php if ( is_singular() ) { ?>
 <link rel="canonical" href="<?php the_permalink(); ?>" />
 <?php } ?>
+
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
@@ -169,9 +172,9 @@
       <nav id="header-navigation">
         <ul class="sf-menu" id="nav">
         <li><a href="<?php echo esc_url( home_url() ); ?>">Home</a></li>
-        <li><a href="upcycled-crafts">Upcycled Crafts</a></li>          
-          <li><a href="recipes">Recipes</a></li>
-      <li><a href="featured">Featured</a></li>
+        <li><a href="<?php echo esc_url( home_url() ); ?>/upcycled-crafts">Upcycled Crafts</a></li>          
+          <li><a href="<?php echo esc_url( home_url() ); ?>/recipes">Recipes</a></li>
+      <li><a href="<?php echo esc_url( home_url() ); ?>/featured">Featured</a></li>
         </ul>
       </nav>
     <div id="site_content">
