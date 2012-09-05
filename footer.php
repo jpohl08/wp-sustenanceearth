@@ -19,10 +19,11 @@
 
 <footer id="main-footer">
     <p><a href="<?php echo esc_url( home_url() ); ?>">Home</a> |
-         <a href="upcycled-crafts">Upcycled Crafts</a> |
-         <a href="recipes">Recipes</a> |
-         <a href="about">About</a> |
-         <a href="contact">Contact Me</a>
+         <a href="<?php echo esc_url( home_url() ); ?>/upcycled-crafts">Upcycled Crafts</a> |
+         <a href="<?php echo esc_url( home_url() ); ?>/recipes">Recipes</a> |
+         <a href="<?php echo esc_url( home_url() ); ?>/featured">Featured</a> |
+         <a href="<?php echo esc_url( home_url() ); ?>/about">About</a> |
+         <a href="<?php echo esc_url( home_url() ); ?>/contact">Contact Me</a>
       </p>
       <p>Copyright &copy; CSS3_design_two |
          Design: <a href="http://takeflightsites.com">Take Flight Sites</a> | 
