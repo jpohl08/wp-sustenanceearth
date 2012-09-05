@@ -30,7 +30,7 @@
         <nav id="nav-single">
             <h3 class="assistive-text"><?php _e( 'Post Navigation', 'twentyeleven' ); ?></h3>
             <span class="nav-previous"><?php previous_post_link( '%link', __( '<span class="meta-nav">&larr;</span> Previous', 'twentyeleven' ) ); ?></span>
-            <span clas="sep"> | </span>
+            <?php if( get_adjacent_post(false, '', false) && get_adjacent_post(false, '', true) ) echo '<span class="sep"> | </span>'; ?>
             <span class="nav-next"><?php next_post_link( '%link', __( 'Next <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?></span>
         </nav><!-- #nav-single -->
 
