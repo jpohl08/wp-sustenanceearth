@@ -47,9 +47,10 @@
     if ( $site_description && ( is_home() || is_front_page() ) )
         echo " | $site_description";
 
-    // Add a page number if necessary:
-    if ( $paged >= 2 || $page >= 2 )
-        echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
+/*    // Add a page number if necessary:
+ *  if ( $paged >= 2 || $page >= 2 )
+ *      echo ', ' . sprintf( __( '%s', 'twentyeleven' ), max( $paged, $page ) );
+ */
 
     ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
