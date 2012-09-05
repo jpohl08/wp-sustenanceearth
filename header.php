@@ -21,6 +21,9 @@
 <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
+<?php if ( is_singular() ) { ?>
+<link rel="canonical" href="<?php the_permalink(); ?>" />
+<?php } ?>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
@@ -28,9 +31,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="shortcut icon" href="images/earth_favicon.png" type="image/x-icon" />
-<link rel="canonical" href="http://sustenanceearth.com/raspberry_vinaigrette.html"/>
-<link rel="canonical" href="http://sustenanceearth.com/etched_dressing_bottle.html"/>
-<link rel="canonical" href="http://sustenanceearth.com/southern_french_crepe.html"/>
 <title><?php
     /*
      * Print the <title> tag based on what is being viewed.
