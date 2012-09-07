@@ -33,7 +33,7 @@
 <meta name="keywords" content="upcycled,crafts,recipes,healthy" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
-<link rel="shortcut icon" href="images/earth_favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/earth_favicon.png" type="image/x-icon" />
 <title><?php
     /*
      * Print the <title> tag based on what is being viewed.

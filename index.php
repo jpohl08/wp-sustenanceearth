@@ -23,12 +23,12 @@ get_header(); ?>
 <?php get_sidebar(); ?>
       <div id="content">
         <ul class="slideshow">
-          <li class="show"><a href="shoestrap.html"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/finished_bracelet_home.png" alt="Upcycled Shoe Strap Wrap Bracelet" /></a></li>
-	  <li><a href="artichokepizza.html"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/apizza_cooked_home.png" alt="Artichoke and Sun Dried Tomato Pizza Recipe"/></a></li>	  
-	  <li><a href="gold_winebottle.html"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/decorative_vase_home.png" alt="Upcycled Wine Bottle Vase"/></a></li>
-	  <li><a href="southern_french_crepe.html"><img width="706 height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/crepe_home.png" alt="Strawberry filled crepe on a plate garnished with chocolate sauce"/></a></li>
-	  <li><a href="purse_makeover.html"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/purse-makeover-home.png" alt="Drab to Fab Purse Makeover, Black Textured Purse"/></a></li>
-	  <li><a href="raspberry_vinaigrette.html"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/rvinaigrette_homepage.png" alt="Raspberry Vinaigrette Recipe poured on Salad"/></a></li>
+          <li class="show"><a href="shoe-strap-bracelet"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/finished_bracelet_home.png" alt="Upcycled Shoe Strap Wrap Bracelet" /></a></li>
+	  <li><a href="artichoke-and-tomato-tortilla-pizza"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/apizza_cooked_home.png" alt="Artichoke and Sun Dried Tomato Pizza Recipe"/></a></li>	  
+	  <li><a href="dipped-wine-bottle"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/decorative_vase_home.png" alt="Upcycled Wine Bottle Vase"/></a></li>
+	  <li><a href="authentic-southern-french-crepe"><img width="706 height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/crepe_home.png" alt="Strawberry filled crepe on a plate garnished with chocolate sauce"/></a></li>
+	  <li><a href="purse-makeover"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/purse-makeover-home.png" alt="Drab to Fab Purse Makeover, Black Textured Purse"/></a></li>
+	  <li><a href="raspberry-vinaigrette"><img width="706" height="316" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/rvinaigrette_homepage.png" alt="Raspberry Vinaigrette Recipe poured on Salad"/></a></li>
         </ul>
 </div><!-- end #content -->
      	<div id="content_item">
